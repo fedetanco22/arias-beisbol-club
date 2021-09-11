@@ -16,7 +16,7 @@
             $header="From: ".$email."\r\n";//la persona que escribió me dejo su email, entonces el remitente es ese email
             $header.="Reply-To: noreply@example.com"."\r\n";//Le mando un no responder o noreply
             $header.="X-Mailer: PHP/".phpversion();
-            $tuCasilla="ariasbeisbolclub@gmail.com";
+            $tuCasilla="ariasbc2011@gmail.com";
             $mail=mail($tuCasilla,$asunto,$msg,$header);//en "tu mail" tenes que colocar tu casilla de email de consultas,es decir, la casilla en la cual vas a recibir las consultas que deja la gente en tu página
             if($mail){// si el email se mando respondo éxito con javascript
                 echo "<script>

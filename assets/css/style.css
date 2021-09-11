@@ -1258,3 +1258,11 @@ a:hover,
 		right: 20px;
 	}
 }
+
+.telefono {
+	color: #728394;
+}
+
+.telefono:hover {
+	color: #728394;
+}
